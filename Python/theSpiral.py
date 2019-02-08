@@ -23,21 +23,21 @@ for yes in range (0, count // 4 + 1): # This way loop checks the amount of times
     yes += 1
     if c > n ** 2:
         break
-    for x in range (yes, n + 1 - yes): # Пара 2 вниз
+    for x in range (yes, n + 1 - yes):
         c += 1
         if c > n ** 2:
             break
         else: kekList [x][n - yes] = c
     if c > n ** 2:
         break
-    for x in range (n-yes - 1, yes-2, -1): # Пара 3 влево
+    for x in range (n-yes - 1, yes-2, -1):
         c += 1
         if c > n ** 2:
             break
         else: kekList [n - yes][x] = c
     if c > n ** 2:
         break
-    for x in range (n - yes - 1, yes-1, -1): # Пара 4 вверх
+    for x in range (n - yes - 1, yes-1, -1):
         c += 1
         if c > n ** 2:
             break
