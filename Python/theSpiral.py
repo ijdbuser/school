@@ -1,10 +1,10 @@
 # Hello! This is one of the first hard assignment I made studying Python 3. I record this program on 08.02.2019 at the age of 16
 # Program: theSpiral
 # Purpose: create an n*n grid using matrix that way that numbers are printing inward in spiral way
-# Output: itarate the matrix
+# Output: iterate the matrix
 # The level of syntax knowledge: minimal
 # Time: 3 hours to make 
-# Result: fullfilled using the knowledge obtained from the basic python course
+# Result: fulfilled using the knowledge obtained from the basic python course
 
 n = int(input("Please enter the size of the desireable matrix: ")) # Input any desirable integer number 
 kekList = [[0] * n for i in range (n)]  # Generate a matrix and fill it in with zeros for furute manipulations
