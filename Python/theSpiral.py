@@ -4,7 +4,7 @@
 # Output: itarate the matrix
 # The level of syntax knowledge: minimal
 # Time: 3 hours to make 
-# Result: fullfilled using the kkowledge obtained from the basic python course
+# Result: fullfilled using the knowledge obtained from the basic python course
 
 n = int(input("Please enter the size of the desireable matrix: ")) # Input any desirable integer number 
 kekList = [[0] * n for i in range (n)]  # Generate a matrix and fill it in with zeros for furute manipulations
